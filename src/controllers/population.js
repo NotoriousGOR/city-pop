@@ -1,4 +1,4 @@
-const db = require("../services/db.services");
+const db = require("../services/db");
 
 async function get(req, res, next) {
   try {

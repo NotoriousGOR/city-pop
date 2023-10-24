@@ -1,5 +1,5 @@
 const express = require("express");
-const populationController = require("./controllers/population.controller");
+const populationController = require("./controllers/population");
 const app = express();
 const router = express.Router();
 const port = 5555;
